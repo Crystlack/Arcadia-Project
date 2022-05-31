@@ -44,7 +44,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dice\DiceCardAbility_DivineRightToLife.cs" />
+    <Compile Include="Dice\DiceCardAbility_EyeOfTheAllfatherDice1.cs" />
+    <Compile Include="Dice\DiceCardAbility_EyeOfTheAllfatherDice2.cs" />
+    <Compile Include="Dice\DiceCardAbility_GunDown.cs" />
+    <Compile Include="Dice\DiceCardAbility_OneShotKillDice.cs" />
+    <Compile Include="Dice\DiceCardAbility_SmartStrike.cs" />
+    <Compile Include="Pages\DiceCardSelfAbility_AntiRiotTactics.cs" />
+    <Compile Include="Pages\DiceCardSelfAbility_CloseTheDistance.cs" />
+    <Compile Include="Pages\DiceCardSelfAbility_EyeOfTheAllfather.cs" />
+    <Compile Include="Pages\DiceCardSelfAbility_OneShotKill.cs" />
+    <Compile Include="Pages\DiceCardSelfAbility_SmartPistol.cs" />
+    <Compile Include="Passives\PassiveAbility_Facade.cs" />
+    <Compile Include="Passives\PassiveAbility_Unyielding.cs" />
+    <Compile Include="Passives\PassiveAbility_XI_TheStrength.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WilliamModInit.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
