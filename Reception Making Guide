@@ -1,0 +1,10 @@
+1) Open Visual Studio
+2) Create a new Class Library project
+3) Name it however you want
+   Make sure "Place solution and project in the same directory" is turned ON
+   .NET Framework 4.8
+4) At the top of the window open Project -> (proect-name) Properties -> Build Events
+5) Under "post-build events" add the following line "COPY /Y $(TargetPath) $(SolutionDir)\..\DLLs"
+   DO NOT MAKE ANY MODIFICATIONS TO THIS LINE
+   ALSO, DO *NOT* COPY THE QUOTATION MARKS (")
+6) Happy coding :)
