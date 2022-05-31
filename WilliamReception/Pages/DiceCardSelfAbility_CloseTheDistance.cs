@@ -18,6 +18,7 @@ namespace WilliamReception.Pages
             {
                 spd.value += 2;
             }
+            owner.view.speedDiceSetterUI.GetSpeedDiceByIndex(card.slotOrder).ChangeSprite(spd.faces, spd.value);
         }
 
         public override void OnReleaseCard()
@@ -27,6 +28,7 @@ namespace WilliamReception.Pages
             {
                 spd.value -= 2;
             }
+            owner.view.speedDiceSetterUI.GetSpeedDiceByIndex(card.slotOrder).ChangeSprite(spd.faces, spd.value);
         }
 
         public override void OnUseCard()
