@@ -47,6 +47,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dice\DiceCardAbility_Breach.cs" />
     <Compile Include="Dice\DiceCardAbility_DivineRightToLife.cs" />
     <Compile Include="Dice\DiceCardAbility_EyeOfTheAllfatherDice1.cs" />
     <Compile Include="Dice\DiceCardAbility_EyeOfTheAllfatherDice2.cs" />
@@ -56,7 +57,9 @@
     <Compile Include="Pages\DiceCardSelfAbility_AntiRiotTactics.cs" />
     <Compile Include="Pages\DiceCardSelfAbility_CloseTheDistance.cs" />
     <Compile Include="Pages\DiceCardSelfAbility_EyeOfTheAllfather.cs" />
+    <Compile Include="Pages\DiceCardSelfAbility_HypedUp.cs" />
     <Compile Include="Pages\DiceCardSelfAbility_OneShotKill.cs" />
+    <Compile Include="Pages\DiceCardSelfAbility_ShieldSplitter.cs" />
     <Compile Include="Pages\DiceCardSelfAbility_SmartPistol.cs" />
     <Compile Include="Passives\PassiveAbility_Facade.cs" />
     <Compile Include="Passives\PassiveAbility_Unyielding.cs" />
