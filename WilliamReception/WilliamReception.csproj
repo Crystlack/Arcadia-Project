@@ -57,6 +57,7 @@
     <Compile Include="Pages\DiceCardSelfAbility_AntiRiotTactics.cs" />
     <Compile Include="Pages\DiceCardSelfAbility_CloseTheDistance.cs" />
     <Compile Include="Pages\DiceCardSelfAbility_EyeOfTheAllfather.cs" />
+    <Compile Include="Pages\DiceCardSelfAbility_Facade.cs" />
     <Compile Include="Pages\DiceCardSelfAbility_HypedUp.cs" />
     <Compile Include="Pages\DiceCardSelfAbility_OneShotKill.cs" />
     <Compile Include="Pages\DiceCardSelfAbility_ShieldSplitter.cs" />
